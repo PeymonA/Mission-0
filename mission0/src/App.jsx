@@ -8,10 +8,23 @@ const Box =({ word }) => {
   )
 }
 
+const Card = () => {
+  return (
+    <div>
+      <div>
+
+      </div>
+      <div>
+        <p>Loren Ipsum</p>
+      </div>
+    </div>
+  )
+}
+
 const App = () => {
   return(
     <div>
-      <header>
+      <div>
         <div>
           <Box word= "My company"/>
         </div>
@@ -21,7 +34,23 @@ const App = () => {
           <Box word= "Word"/>
           <Box word= "Login"/>
         </div>
-      </header>
+      </div>
+
+      <div>
+        <div>
+          <h2>Loren ipsum dolor sit amit</h2>
+        </div>
+        <div>
+          <input name="myInput" />
+          <button>Search</button>
+        </div>
+      </div>
+
+      <div>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
 
     </div>
   )
