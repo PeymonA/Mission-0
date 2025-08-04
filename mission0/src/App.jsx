@@ -2,7 +2,7 @@ import './App.css'
 
 const Box =({ word }) => {
   return (
-    <div>
+    <div style={{margin: '3%'}}>
       <p>{word}</p>
     </div>
   )
@@ -24,11 +24,11 @@ const Card = () => {
 const App = () => {
   return(
     <div>
-      <div>
+      <div className='header'>
         <div>
           <Box word= "My company"/>
         </div>
-        <div>
+        <div className='nav'>
           <Box word= "Word"/>
           <Box word= "Word"/>
           <Box word= "Word"/>
@@ -36,7 +36,7 @@ const App = () => {
         </div>
       </div>
 
-      <div>
+      <div className='body'>
         <div>
           <h2>Loren ipsum dolor sit amit</h2>
         </div>
@@ -46,7 +46,7 @@ const App = () => {
         </div>
       </div>
 
-      <div>
+      <div className='footer'>
         <Card/>
         <Card/>
         <Card/>
