@@ -15,7 +15,7 @@ const Card = () => {
           <img src='./placeholder.svg' alt='placeholder'
             style={{width:'40%'}}/>
       </div>
-      <div style={{backgroundColor:'rgb(198, 198, 198)'}}>
+      <div style={{backgroundColor:'rgb(198, 198, 198)', textAlign: 'left', paddingLeft:'5%'}}>
         <h4>Loren Ipsum</h4>
         <p>dolor sit amet</p>
       </div>
