@@ -3,7 +3,7 @@ import './App.css'
 const Box =({ word }) => {
   return (
     <div style={{margin: '3%'}}>
-      <p>{word}</p>
+      <span style={{ whiteSpace: 'nowrap' }}>{word}</span>
     </div>
   )
 }
@@ -25,21 +25,24 @@ const Card = () => {
 const App = () => {
   return(
     <div className= "page">
+
+
       <div className='header'>
-        <div>
-          <img src='./logoipsum.svg' alt='placeholderLogo'
-            style={{width:'95%'}}/>
-        </div>
-        <div>
-          <Box word= "My company"/>
+        <div className='headerLeft'>
+          <div>
+            <img src='./logoipsum.svg' alt='placeholderLogo'
+              />
+          </div>
+            <Box word= "My Company"/>
         </div>
         <div className='nav'>
           <Box word= "Word"/>
           <Box word= "Word"/>
           <Box word= "Word"/>
-          <Box word= "Login"/>
+          <Box word= "Log In"/>
         </div>
       </div>
+
 
       <div className='body'>
         <div style={{alignSelf: 'flex-start'}}>
@@ -57,6 +60,7 @@ const App = () => {
           </form>
         </div>
       </div>
+
 
       <div className='footer'>
         <Card/>
