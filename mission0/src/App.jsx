@@ -31,7 +31,7 @@ const App = () => {
         <div className='headerLeft'>
           <div>
             <img src='./circle-256.gif' alt='placeholderLogo'
-              style={{paddingRight:'5px', width:'100%'}}/>
+              style={{width:'100%'}}/>
           </div>
             <Box word= "My Company"/>
         </div>
@@ -47,11 +47,12 @@ const App = () => {
 
 
       <div className='body'>
-        <div style={{alignSelf: 'flex-start'}}>
-          <h1>Loren ipsum</h1>
-          <h1>dolor sit amit</h1>
+        <div className='bodyLeft'>
+          <h1>
+            Loren ipsum <br/> dolor sit amit
+          </h1>
         </div>
-        <div style={{alignSelf:'flex-end'}}>
+        <div className='bodyRight'>
           <div>
             <img src='./placeholder.svg' alt='placeholder'
               style={{width:'25%'}}/>
@@ -61,6 +62,7 @@ const App = () => {
             <button>Search</button>
           </form>
         </div>
+        <div className='bodySpacer' /> 
       </div>
 
 
