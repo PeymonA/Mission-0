@@ -11,12 +11,13 @@ const Box =({ word }) => {
 const Card = () => {
   return (
     <div className='card'>
-      <div>
+      <div style={{backgroundColor: 'rgb(230, 230, 230)'}}>
           <img src='./placeholder.svg' alt='placeholder'
             style={{width:'40%'}}/>
       </div>
-      <div>
-        <p>Loren Ipsum</p>
+      <div style={{backgroundColor:'rgb(198, 198, 198)', textAlign: 'left', paddingLeft:'5%'}}>
+        <h4>Loren Ipsum</h4>
+        <p>dolor sit amet</p>
       </div>
     </div>
   )
@@ -30,8 +31,8 @@ const App = () => {
       <div className='header'>
         <div className='headerLeft'>
           <div>
-            <img src='./logoipsum.svg' alt='placeholderLogo'
-              />
+            <img src='./circle-256.gif' alt='placeholderLogo'
+              style={{width:'100%'}}/>
           </div>
             <Box word= "My Company"/>
         </div>
@@ -39,26 +40,30 @@ const App = () => {
           <Box word= "Word"/>
           <Box word= "Word"/>
           <Box word= "Word"/>
-          <Box word= "Log In"/>
+          <div className='input'>
+            <span style={{ whiteSpace: 'nowrap' }}>Log In</span>
+          </div>  
         </div>
       </div>
 
 
       <div className='body'>
-        <div style={{alignSelf: 'flex-start'}}>
-          <h1>Loren ipsum</h1>
-          <h1>dolor sit amit</h1>
+        <div className='bodyLeft'>
+          <h1 style={{color:'white'}}>
+            Loren ipsum <br/> dolor sit amit
+          </h1>
         </div>
-        <div style={{alignSelf:'flex-end'}}>
+        <div className='bodyRight'>
           <div>
             <img src='./placeholder.svg' alt='placeholder'
               style={{width:'25%'}}/>
           </div>
           <form>
-            <input name="myInput" />
-            <button>Search</button>
+            <input name="myInput"/>
+            <button className='myButton'>Search</button>
           </form>
         </div>
+        <div className='bodySpacer' /> 
       </div>
 
 
