@@ -8,10 +8,30 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   margin-right: 5%;
+  align-self: flex-end;
+}
+
+.body {
+  background-color: rgb(198, 198, 198);
+  display: flex;
+  padding-top: 7.5%;
+  padding-bottom: 2.5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+
+.card {
+  background-color:rgb(198, 198, 198);
+  width: 30%;
 }

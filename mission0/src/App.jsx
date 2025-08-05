@@ -10,9 +10,10 @@ const Box =({ word }) => {
 
 const Card = () => {
   return (
-    <div>
+    <div className='card'>
       <div>
-
+          <img src='./placeholder.svg' alt='placeholder'
+            style={{width:'40%'}}/>
       </div>
       <div>
         <p>Loren Ipsum</p>
@@ -23,8 +24,12 @@ const Card = () => {
 
 const App = () => {
   return(
-    <div>
+    <div className= "page">
       <div className='header'>
+        <div>
+          <img src='./logoipsum.svg' alt='placeholderLogo'
+            style={{width:'95%'}}/>
+        </div>
         <div>
           <Box word= "My company"/>
         </div>
@@ -37,12 +42,19 @@ const App = () => {
       </div>
 
       <div className='body'>
-        <div>
-          <h2>Loren ipsum dolor sit amit</h2>
+        <div style={{alignSelf: 'flex-start'}}>
+          <h1>Loren ipsum</h1>
+          <h1>dolor sit amit</h1>
         </div>
-        <div>
-          <input name="myInput" />
-          <button>Search</button>
+        <div style={{alignSelf:'flex-end'}}>
+          <div>
+            <img src='./placeholder.svg' alt='placeholder'
+              style={{width:'25%'}}/>
+          </div>
+          <form>
+            <input name="myInput" />
+            <button>Search</button>
+          </form>
         </div>
       </div>
 
