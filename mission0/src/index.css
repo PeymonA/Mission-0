@@ -41,3 +41,10 @@
   flex-direction: row;
 }
 
+.input {
+  padding-left: 10%;
+  padding-right: 10%;
+  border-style: solid;
+  border-color: rgb(198, 198, 198);
+}
+

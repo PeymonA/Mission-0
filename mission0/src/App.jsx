@@ -30,8 +30,8 @@ const App = () => {
       <div className='header'>
         <div className='headerLeft'>
           <div>
-            <img src='./logoipsum.svg' alt='placeholderLogo'
-              />
+            <img src='./circle-256.gif' alt='placeholderLogo'
+              style={{paddingRight:'5px', width:'100%'}}/>
           </div>
             <Box word= "My Company"/>
         </div>
@@ -39,7 +39,9 @@ const App = () => {
           <Box word= "Word"/>
           <Box word= "Word"/>
           <Box word= "Word"/>
-          <Box word= "Log In"/>
+          <div className='input'>
+            <span style={{ whiteSpace: 'nowrap' }}>Log In</span>
+          </div>  
         </div>
       </div>
 
