@@ -22,6 +22,7 @@
 .body {
   background-color: rgb(198, 198, 198);
   display: flex;
+  margin-top: 10px;
   padding-top: 7.5%;
   padding-bottom: 2.5%;
   align-items: center;
@@ -29,6 +30,7 @@
 
 .bodyLeft {
   flex: 1;
+  align-self: flex-start;
   padding-left: 5%;
 }
 
@@ -47,11 +49,10 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 5%;
+  padding-top: 2.5%;
 }
 
 .card {
-  background-color:rgb(198, 198, 198);
   width: 30%;
 }
 
@@ -71,3 +72,8 @@
   align-self: center;
 }
 
+.myButton {
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+}

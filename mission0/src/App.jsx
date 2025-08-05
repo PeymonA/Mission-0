@@ -11,12 +11,13 @@ const Box =({ word }) => {
 const Card = () => {
   return (
     <div className='card'>
-      <div>
+      <div style={{backgroundColor: 'rgb(230, 230, 230)'}}>
           <img src='./placeholder.svg' alt='placeholder'
             style={{width:'40%'}}/>
       </div>
-      <div>
-        <p>Loren Ipsum</p>
+      <div style={{backgroundColor:'rgb(198, 198, 198)'}}>
+        <h4>Loren Ipsum</h4>
+        <p>dolor sit amet</p>
       </div>
     </div>
   )
@@ -48,7 +49,7 @@ const App = () => {
 
       <div className='body'>
         <div className='bodyLeft'>
-          <h1>
+          <h1 style={{color:'white'}}>
             Loren ipsum <br/> dolor sit amit
           </h1>
         </div>
@@ -58,8 +59,8 @@ const App = () => {
               style={{width:'25%'}}/>
           </div>
           <form>
-            <input name="myInput" />
-            <button>Search</button>
+            <input name="myInput"/>
+            <button className='myButton'>Search</button>
           </form>
         </div>
         <div className='bodySpacer' /> 
