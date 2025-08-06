@@ -1,0 +1,9 @@
+.card {
+  width: 30%;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2.5%;
+} 

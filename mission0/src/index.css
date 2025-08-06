@@ -2,19 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  flex-grow: 1;
+}
+
+.circle {
+  width: 100%;
 }
 
 .header{
-  display: flex;
-  flex-direction: row;
-  gap: 75%;
-  padding-right: 7.5%;
-  padding-left: 2%;
-  padding-bottom: 2px;
-  
+display: flex;
+flex-direction: row;
+padding-right: 7.5%;
+padding-left: 2%;
+padding-bottom: 2px;
+gap: 60%;
+
 }
 
-.nav {
+.headerLeft {
   display: flex;
   flex-direction: row;
 }
@@ -22,10 +27,22 @@
 .body {
   background-color: rgb(198, 198, 198);
   display: flex;
+  flex-direction: column;
   margin-top: 10px;
   padding-top: 7.5%;
   padding-bottom: 2.5%;
   align-items: center;
+}
+
+
+@media only screen and (min-width: 599px) {
+
+.header {
+  gap: 75%;
+}
+
+.body {
+  flex-direction: column;
 }
 
 .bodyLeft {
@@ -38,42 +55,12 @@
   flex: 1; 
 }
 
-.bodyRight {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center;
+.circle {
+  width: 100%;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 2.5%;
+
 }
 
-.card {
-  width: 30%;
-}
 
-.headerLeft {
-  display: flex;
-  flex-direction: row;
-}
 
-.input {
-  margin-left: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-style: solid;
-  border-color: rgb(198, 198, 198);
-  align-self: center;
-}
-
-.myButton {
-  margin-top: 5%;
-  background-color: black;
-  color: white;
-}
