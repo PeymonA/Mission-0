@@ -17,7 +17,7 @@ const App = () => {
       <div className= "page">
         <div className='header'>
           <div className='headerLeft'>
-            <div>
+            <div style={{marginRight:'2%'}}>
               <img src='./circle-256.gif' alt='placeholderLogo'
                 className='circle'/>
             </div>
