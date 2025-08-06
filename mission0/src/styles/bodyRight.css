@@ -1,0 +1,24 @@
+.bodyRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+.input {
+  margin-left: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-style: solid;
+  border-color: rgb(198, 198, 198);
+  align-self: center;
+}
+
+.myButton {
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+}
