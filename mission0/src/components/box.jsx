@@ -1,6 +1,8 @@
+import '../styles/box.css'
+
 const Box =({ word }) => {
   return (
-    <div style={{margin:'3%'}}>
+    <div className="box">
       <span style={{ whiteSpace: 'nowrap' }}>{word}</span>
     </div>
   )

@@ -18,7 +18,7 @@ const Card = () => {
 function Footer(props) {
     if (props.width >= 600) {
         return(
-            <div>
+            <div className='footer' >
                 <Card/>
                 <Card/>
                 <Card/>
@@ -27,7 +27,7 @@ function Footer(props) {
     }
     else {
         return(
-            <div>
+            <div className='footer'>
                 <Card/>
             </div>
         );

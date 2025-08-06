@@ -8,10 +8,10 @@ function BodyRight(props) {
                     <img src='./placeholder.svg' alt='placeholder'
                         style={{width:'25%'}}/>
                     </div>
-                    <form>
+                    <div>
                         <input name="myInput"/>
                         <button className='myButton'>Search</button>
-                    </form>
+                    </div>
                 </div>
         );
     }
@@ -19,10 +19,10 @@ function BodyRight(props) {
     else {
         return(
                 <div className='bodyRight'>
-                    <form>
+                    <div className='form'>
                         <input name="myInput"/>
                         <button className='myButton'>Search</button>
-                    </form>
+                    </div>
                 </div>
         );
     }

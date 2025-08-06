@@ -14,7 +14,6 @@ const App = () => {
 
   return(
     <>
-
       <div className= "page">
         <div className='header'>
           <div className='headerLeft'>
@@ -37,10 +36,8 @@ const App = () => {
           <div className='bodySpacer' /> 
         </div>
 
-        <div className='footer'>
-            <Footer width={size.width}/>
-        </div>
-
+        <Footer width={size.width}/>
+        
       </div>
     </>
   )
