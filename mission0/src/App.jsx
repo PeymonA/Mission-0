@@ -18,7 +18,7 @@ const App = () => {
         <div className='header'>
           <div className='headerLeft'>
             <div style={{marginRight:'2%'}}>
-              <img src='./circle-256.gif' alt='placeholderLogo'
+              <img src='./logoipsum.svg' alt='placeholderLogo'
                 className='circle'/>
             </div>
               <Box word= "My Company"/>
@@ -28,12 +28,11 @@ const App = () => {
 
         <div className='body'>
           <div className='bodyLeft'>
-            <h1 style={{color:'white'}}>
+            <h1 className="bigText">
               Loren ipsum <br/> dolor sit amit
             </h1>
           </div>
           <BodyRight width={size.width}/>
-          <div className='bodySpacer' /> 
         </div>
 
         <Footer width={size.width}/>

@@ -3,11 +3,11 @@ import '../styles/footer.css'
 const Card = () => {
   return (
     <div className='card'>
-      <div style={{backgroundColor: 'rgb(230, 230, 230)'}}>
+      <div className='upperCard'>
           <img src='./placeholder.svg' alt='placeholder'
-            style={{width:'40%'}}/>
+            className='cardImage'/>
       </div>
-      <div style={{backgroundColor:'rgb(198, 198, 198)', textAlign: 'left', paddingLeft:'5%'}}>
+      <div className='bottomText'>
         <h4>Loren Ipsum</h4>
         <p>dolor sit amet</p>
       </div>

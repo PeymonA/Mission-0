@@ -24,13 +24,22 @@
 }
 
 .body {
-  background-color: rgb(198, 198, 198);
+  background-image: url('./placeholder.svg');
+  background-size: contain;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  padding-top: 7.5%;
-  padding-bottom: 2.5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   align-items: center;
+}
+
+.bodyLeft {
+  margin-bottom: 5%
+}
+
+.bigText {
+  color: black;
 }
 
 
@@ -42,6 +51,8 @@
 
 .body {
   flex-direction: column;
+  padding-top: 7.5%;
+  padding-bottom: 2.5%;
 }
 
 .bodyLeft {
@@ -50,15 +61,14 @@
   padding-left: 5%;
 }
 
-.bodySpacer {
-  flex: 1; 
-}
-
 .circle {
   width: 100%;
   
 }
 
+.bigText {
+  font-size: 50px;
+}
 
 }
 
