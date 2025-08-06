@@ -4,12 +4,8 @@ function BodyRight(props) {
     if (props.width >= 600) {
         return(
                 <div className='bodyRight'>
-                    <div>
-                    <img src='./placeholder.svg' alt='placeholder'
-                        style={{width:'25%'}}/>
-                    </div>
-                    <div>
-                        <input name="myInput"/>
+                    <div className='form'>
+                        <input name="myInput" className="input" />
                         <button className='myButton'>Search</button>
                     </div>
                 </div>
@@ -20,7 +16,7 @@ function BodyRight(props) {
         return(
                 <div className='bodyRight'>
                     <div className='form'>
-                        <input name="myInput"/>
+                        <input name="myInput" className="input" />
                         <button className='myButton'>Search</button>
                     </div>
                 </div>

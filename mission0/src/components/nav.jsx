@@ -8,7 +8,7 @@ function Nav(props) {
                 <Box word= "Word"/>
                 <Box word= "Word"/>
                 <Box word= "Word"/>
-                <div className='input'>
+                <div className='logIn'>
                     <span style={{ whiteSpace: 'nowrap' }}>Log In</span>
                 </div>  
             </div>

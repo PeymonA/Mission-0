@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   flex-grow: 1;
@@ -7,16 +6,16 @@
 
 .circle {
   width: 100%;
+  
 }
 
 .header{
-display: flex;
-flex-direction: row;
-padding-right: 7.5%;
-padding-left: 2%;
-padding-bottom: 2px;
-gap: 60%;
-
+  display: flex;
+  flex-direction: row;
+  padding-right: 7.5%;
+  padding-left: 2%;
+  padding-bottom: 2px;
+  gap: 60%;
 }
 
 .headerLeft {
@@ -25,13 +24,22 @@ gap: 60%;
 }
 
 .body {
-  background-color: rgb(198, 198, 198);
+  background-image: url('./placeholder.svg');
+  background-size: contain;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  padding-top: 7.5%;
-  padding-bottom: 2.5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   align-items: center;
+}
+
+.bodyLeft {
+  margin-bottom: 5%
+}
+
+.bigText {
+  color: black;
 }
 
 
@@ -43,6 +51,8 @@ gap: 60%;
 
 .body {
   flex-direction: column;
+  padding-top: 7.5%;
+  padding-bottom: 2.5%;
 }
 
 .bodyLeft {
@@ -51,14 +61,14 @@ gap: 60%;
   padding-left: 5%;
 }
 
-.bodySpacer {
-  flex: 1; 
-}
-
 .circle {
   width: 100%;
+  
 }
 
+.bigText {
+  font-size: 50px;
+}
 
 }
 
